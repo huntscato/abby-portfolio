@@ -26,66 +26,37 @@
 
 <body>
 
-  <!-- HEADER SECTION -->
-
-  <header>
-    <img src="img/abby-logo.svg"/>
-    <div class="nav-bar">
-      <button class="menu-toggle">☰</button>
-      <ul>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>About Me</li>
-        <li>Contact</li>
-      </ul>
-    </div>
-  </header>
-  
-  <div class="title-bar">
-    <p>- Photographer - Model -</p>
-  </div>
-
-  <!-- IMAGE SCROLL -->
-
-  <section id="photo-gallery" class="photo-gallery">
-    <div class="box">
-      <span style="--i:1;"><img src="img/abigail-underwater.png" /></span>
-      <span style="--i:2;"><img src="img/crystal-ball.png" /></span>
-      <span style="--i:3;"><img src="img/mushroom.png" /></span>
-      <span style="--i:4;"><img src="img/nature.png" /></span>
-      <span style="--i:5;"><img src="img/new-years-eve.png" /></span>
-      <span style="--i:6;"><img src="img/old-flames.png" /></span>
-      <span style="--i:7;"><img src="img/rocks.png" /></span>
-      <span style="--i:8;"><img src="img/secret-garden.png" /></span>
-      <span style="--i:9;"><img src="img/painting.png" /></span>
+  <section id="header">
+    <div class="header-block">
+      <div class="header-logo">
+        <img src="img/abby-logo.svg" />
+      </div>
+      <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+      <nav class="dropdown-menu" id="dropdown-menu">
+        <ul>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </div>
   </section>
 
-
-  <!-- ABOUT SECTION -->
-
-  <section id="about">
-    <h2>About Me</h2>
-    <div class="about-header">
-      <img src="img/birthday.png" />
-    </div>
-    <div class="about-content">
-      <p>I have been an artistic soul for as long as I can remember. I have done and tried
-        everything that has to do with the arts. I have been an actress, dancer, singer, model,
-        photographer, director, writer, set designer, and a painter. After experiencing all of these different
-        areas of the arts, it made me realize who I want to be and who I was meant to be in this life. <br>
-      </p>
-      <p><span>I'm a storyteller and a teacher.</span></p>
-      <p>Storytelling is how I express myself to the world. I have told stories in many different 
-        ways through the arts and I love connecting with people and making others feel something 
-        when they see my work. I want to make people think and see things from different angles.<br>
-      </p>
-      <p><span>It's a way to inspire, relate to and help others.</span></p>
+  <section id="slideshow">
+    <div class="slideshow-container">
+      <img src="img/abigail-underwater.png" />
+      <img src="img/new-years-eve.png" />
+      <img src="img/painting.png" />
+      <img src="img/autumn.png" />
+      <img src="img/mushroom.png" />
     </div>
   </section>
 
-
-
+  <section id="summary">
+    <h3>- Photographer - Model -</h3><br>
+    <h3>- Artistic Multi-Hyphonate</h3>
+  </section>
 
   <!-- Add your site or application content here -->
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
