@@ -4,6 +4,8 @@ document.getElementById('menu-toggle').addEventListener('click', function() {
     document.getElementById('dropdown-menu').classList.toggle('active');
 });
 
+
+
 /**** SLIDESHQW ****/
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -12,11 +14,11 @@ document.addEventListener("DOMContentLoaded", function () {
   
     function showSlide(index) {
       slides.forEach((slide, i) => {
-        slide.classList.remove("active", "exit"); // Reset previous states
+        slide.classList.remove("active", "exit"); 
         if (i === index) {
-          slide.classList.add("active"); // Make the current slide visible
+          slide.classList.add("active"); 
         } else if (i === (index - 1 + slides.length) % slides.length) {
-          slide.classList.add("exit"); // Exit the previous slide
+          slide.classList.add("exit"); 
         }
       });
     }
@@ -26,6 +28,31 @@ document.addEventListener("DOMContentLoaded", function () {
       showSlide(currentIndex);
     }
   
-    showSlide(currentIndex); // Show the first image initially
-    setInterval(nextSlide, 5000); // Change every 5 seconds
+    showSlide(currentIndex); 
+    setInterval(nextSlide, 4000); 
+  });
+
+  
+  
+  /**** TESTIMONIAL SCROLL ****/
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const testimonials = document.querySelectorAll(".testimonial");
+    let index = 0;
+  
+    function showNextTestimonial() {
+      testimonials.forEach((t) => t.classList.remove("show", "hide"));
+  
+      const current = testimonials[index];
+      current.classList.add("show"); 
+  
+      setTimeout(() => {
+        current.classList.add("hide"); 
+      }, 4000); 
+  
+      index = (index + 1) % testimonials.length;
+    }
+  
+    setInterval(showNextTestimonial, 5000); 
+    showNextTestimonial(); 
   });
