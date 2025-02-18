@@ -224,6 +224,10 @@ Author's custom styles
     color: #d4c2a8;
     font-family: 'Libre Baskerville', serif;
   }
+
+  input {
+    text-align: center;
+  }
   
   #title {
     color: #d4c2a8;
