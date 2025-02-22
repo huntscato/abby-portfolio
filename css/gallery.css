@@ -146,7 +146,7 @@ textarea {
 
   #header img {
     background-color: #3e3b36;
-    width: 100%;
+    width: 50%;
   }
 
   .header-logo {
@@ -182,6 +182,13 @@ textarea {
     position: absolute;
     transform: scale(1);
     transition: opacity 1s ease-in-out;
+  }
+
+  #animated-text span .green {
+    color: rgb(12, 157, 96);
+    opacity: 1;
+    transition: none;
+    visibility: visible;
   }
 
   #animated-text span.show {
@@ -290,6 +297,15 @@ textarea {
     opacity: 0;
     transform: scale(1.5);
   }
+
+
+@media (min-width: 768px) {
+
+  /**** HEADER ****/
+
+  
+
+}
 
 
 
