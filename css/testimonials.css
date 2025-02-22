@@ -186,9 +186,33 @@ textarea {
     flex-direction: column;
     justify-content: center;
     margin: 10px;
-    opacity: 1;
+    opacity: 0;
     padding: 20px;
     text-align: center; 
+    transform: translateX(0);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .testimonial-card img {
@@ -198,6 +222,14 @@ textarea {
     margin-bottom: 20px; 
     object-fit: cover;  
     width: 200px;   
+}
+
+.testimonial-card.visible-left {
+  animation: slideInFromLeft 1.7s ease-out forwards;
+}
+
+.testimonial-card.visible-right {
+  animation: slideInFromRight 1.7s ease-out forwards;
 }
 
 .testimonial-text {    
