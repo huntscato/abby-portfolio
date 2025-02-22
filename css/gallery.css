@@ -88,8 +88,6 @@ textarea {
    ========================================================================== */
 
 
-   /**** HEADER ****/
-
      /**** HEADER SECTION ****/
 
   .dropdown-menu {
@@ -151,7 +149,7 @@ textarea {
     width: 100%;
   }
 
-  .header-logo img {
+  .header-logo {
     display: block;
     max-width: 100%;
     width: 100%;
