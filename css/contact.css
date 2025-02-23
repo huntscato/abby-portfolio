@@ -266,6 +266,100 @@ Author's custom styles
 
   }
 
+  @media (min-width: 1200px) {
+
+    /**** HEADER ****/
+  
+    .dropdown-menu {
+      background: transparent;
+      box-shadow: none;
+      display: flex;
+      justify-content: space-between;
+      position: static;
+      transform: none;
+      width: 100%;
+    }
+  
+    .dropdown-menu li {
+      background: none;
+      border: none;
+      padding: 0;
+    }
+  
+    .dropdown-menu li a {
+      color: #d4c2a8;
+      font-size: 1.4rem;
+      text-decoration: none;
+    }
+  
+    .dropdown-menu ul {
+      display: flex;
+      gap: 30px;
+      padding: 0; 
+      width: 100%;
+    }
+  
+    #header {
+      background-color: #3b3b3b;
+      padding: 80px 0;
+    }
+  
+    #header a {
+      font-size: 1.5rem;
+      padding: 0 5px;
+    }
+  
+    .header-block {
+      align-items: center;
+      display: flex;
+      justify-content: center; 
+      margin: 40px 0;
+      position: relative;
+      width: 100%;
+    }
+  
+    #header img {
+      margin-right: 10px;
+    }
+  
+    .header-logo {
+      left: 50%;
+      position: absolute; 
+      transform: translateX(-50%);
+      width: 47%; 
+      z-index: 1; 
+    }
+  
+    .menu-toggle {
+      display: none;
+    }
+  
+    .nav-wrapper {
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+    }
+  
+    .left-nav,
+    .right-nav {
+      display: flex;
+      gap: 30px;
+      position: absolute;
+      top: 0;
+    }
+  
+    .left-nav {
+      left: 5%;
+    }
+  
+    .right-nav {
+      right: 10%; 
+    }
+  
+  }
+
+
+
 
 /* ==========================================================================
    Helper classes
