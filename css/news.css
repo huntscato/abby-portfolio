@@ -220,6 +220,46 @@ textarea {
     text-decoration: none;
   }
 
+@media (min-width: 768px) {
+
+  /**** HEADER ****/ 
+    
+    .dropdown-menu li a {
+      font-size: 1.4rem;
+    }
+        
+    .header-logo {
+      width: 60%;
+    }   
+      
+    .menu-toggle {
+      padding: 10px;
+    }
+
+  /**** NEWS ****/ 
+
+    #news h1{
+      font-size: 1.8rem;
+    }
+
+    .news-item {
+      font-size: 1.4rem;
+    }
+
+    .news-item .date {
+      font-size: 1.2rem;
+    }
+
+    .news-item h2 {
+      font-size: 1.4rem;
+    }
+
+    .news-item p {
+      font-size: 1.3rem;
+    }
+  
+}
+
 
 /* ==========================================================================
    Helper classes

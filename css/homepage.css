@@ -354,6 +354,10 @@ textarea {
 @media (min-width: 768px) {
 
   /**** HEADER ****/
+
+ .dropdown-menu li a {
+  font-size: 1.4rem;
+ }
   
  .header-logo {
   width: 60%;
@@ -363,27 +367,34 @@ textarea {
   padding: 10px;
  }
 
-
  /**** SLIDESHOW CONTAINER ****/
 
  #slideshow {
-  margin-bottom: 140px;
+  margin-bottom: 250px;
   margin-top: 20px;
  }
 
  #slideshow img {
-  width: 35%;
+  width: 45%;
+ }
+
+ /**** SUMMARY SECTION ****/
+
+ #summary {
+  font-size: 1.4rem;
  }
 
  /**** HOME BIO ****/
 
  #home-bio {
+  font-size: 1.4rem;
   margin: 0 60px;
  }
 
  /*** OFFERS ****/
 
  #offers {
+  font-size: 1.4rem;
   margin: 30px 60px;
  }
 
@@ -394,7 +405,7 @@ textarea {
  }
 
  .footer-text {
-  font-size: 1.2em;
+  font-size: 1.4em;
   text-align: center;
   width: 40%;
  }

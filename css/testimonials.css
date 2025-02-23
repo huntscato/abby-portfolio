@@ -239,6 +239,41 @@ textarea {
 }
 
 
+@media (min-width: 768px) {
+  
+  /**** HEADER ****/ 
+    
+  .dropdown-menu li a {
+    font-size: 1.4rem;
+  }
+        
+  .header-logo {
+    width: 60%;
+  }   
+      
+  .menu-toggle {
+    padding: 10px;
+  }
+
+  /**** TESTIMONIALS ****/
+
+  #testimonials {
+    font-size: 1.4rem;
+  }
+
+  .testimonial-card {
+    margin: 0 40px;
+  }
+
+  .testimonial-card img {
+    width: 350px;
+  }
+
+  .testimonial-text {
+    font-size: 1.4rem;
+  }
+}
+
 
 /* ==========================================================================
    Helper classes

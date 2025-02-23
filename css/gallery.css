@@ -146,7 +146,7 @@ textarea {
 
   #header img {
     background-color: #3e3b36;
-    width: 50%;
+    width: 100%;
   }
 
   .header-logo {
@@ -303,7 +303,36 @@ textarea {
 
   /**** HEADER ****/
 
+  .dropdown-menu li a {
+    font-size: 1.4rem;
+   }
+
+  .header-logo {
+    width: 60%;
+   }   
   
+   .menu-toggle {
+    padding: 10px;
+   }
+
+  /**** GALLERY ****/ 
+
+  #animated-text {
+    margin-bottom: 80px;
+    margin-top: 20px;
+  }
+
+  #gallery {
+    margin: 40px 50px;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.8rem;
+  }
 
 }
 
