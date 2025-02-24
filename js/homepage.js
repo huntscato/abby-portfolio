@@ -1,5 +1,3 @@
-
-
 document.getElementById('menu-toggle').addEventListener('click', function() {
     document.getElementById('dropdown-menu').classList.toggle('active');
 });
@@ -56,3 +54,4 @@ document.addEventListener("DOMContentLoaded", function () {
     setInterval(showNextTestimonial, 5000); 
     showNextTestimonial(); 
   });
+  

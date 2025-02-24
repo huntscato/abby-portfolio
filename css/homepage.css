@@ -263,6 +263,7 @@ textarea {
     border: 4px solid #bc672c;
     border-radius: 4px;
     font-family: 'Libre Baskerville', serif;
+    margin: 0 5px;
     text-align: center;
   }
 
@@ -326,7 +327,6 @@ textarea {
 
   .footer-links {
     display: flex;
-    justify-content: space-between;
     margin-left: 7px;
     margin-top: 10px;
     width: 80%;
@@ -350,6 +350,21 @@ textarea {
   #mono {
     width: 35%;
   }
+
+  /**** COPYRIGHT ****/
+
+  #copyright {
+    background-color: #3e3b36;
+    color: #d4c2a8;
+    font-size: 0.7rem;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  #copyright p {
+    margin: 0;
+  }
+
 
 @media (min-width: 768px) {
 
@@ -402,6 +417,14 @@ textarea {
 
  #footer {
   padding: 50px;
+ }
+
+ .footer-links  {
+  margin: 0 50px;
+ }
+
+ .footer-links a {
+  padding: 0 20px;
  }
 
  .footer-text {
@@ -505,7 +528,50 @@ textarea {
 
   /**** SLIDESHOW ****/
   
+  #slideshow {
+    height: 70vh;
+    margin-bottom: 10px;
+  }
+
+  .slideshow-container {
+    left: 0;
+    position: absolute;
+  }
+
+  #slideshow img {
+    width: 30%;
+  }
+
+  /**** HOME BIO ****/
+
+  #home-bio {
+    margin: 0 80px;
+  }
+
+  /**** FOOTER ****/
+
+  #footer {
+    padding: 20px 150px;
+  }
+
+  .footer-links {
+    margin: 0 20%;
+  }
+
+  .footer-links a {
+    padding: 0 35px;
+  }
   
+  .footer-text {
+    font-size: 1.9rem;
+  }
+
+  #mono {
+    padding-left: 5%;;
+    width: 25%;
+  }
+
+
 }
 
 

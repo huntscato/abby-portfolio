@@ -217,6 +217,19 @@ textarea {
   padding-top: 20px;
 }
 
+.footer a {
+  color: #d4c2a8;
+  text-decoration: underline;
+}
+
+.footer p {
+  color: #d4c2a8;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
 
    /**** HEADER ****/
