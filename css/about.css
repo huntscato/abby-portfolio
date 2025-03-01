@@ -353,6 +353,45 @@ textarea {
     right: 10%; 
   }
 
+  /**** ABOUT ****/
+
+  .about-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 0 40px;
+  }
+
+  .about-block img {
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+  }
+
+  .about-block .fade-in {
+    width: 50%;
+  }
+
+  .about-block:nth-of-type(1) {
+    flex-direction: row; 
+    text-align: left;
+  }
+
+  .about-block:nth-of-type(2) {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+
+  .about-block:nth-of-type(3) {
+    flex-direction: row; 
+    text-align: left;
+  }
+
+  #about img {
+    width: 100%;
+  }
+
 }
 
 
