@@ -130,13 +130,13 @@ textarea {
   }
 
   #header {
+    background-color: #3e3b36;
     position: relative;
     width: 100%;
   }
 
   .header-block {
     align-items: center;
-    background-color: #3e3b36;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,7 +145,6 @@ textarea {
   }
 
   #header img {
-    background-color: #3e3b36;
     width: 100%;
   }
 
@@ -376,7 +375,6 @@ textarea {
   }
 
   #header {
-    background-color: #3b3b3b;
     padding: 80px 0;
   }
 
