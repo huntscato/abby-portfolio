@@ -228,6 +228,11 @@ Author's custom styles
   input {
     text-align: center;
   }
+
+  #service {
+    font-size: 1.5rem;
+    text-align: center;
+  }
   
   #title {
     color: #d4c2a8;
