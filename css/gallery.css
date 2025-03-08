@@ -242,7 +242,7 @@ textarea {
   
   .gallery-container img {
     border: 6px solid #a67c52;
-    border-radius: 4px;
+    border-radius: 1px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
     transition: transform 0.3s ease-in-out;
     width: 100%;
@@ -513,6 +513,85 @@ textarea {
 
   .right-nav {
     right: 10%; 
+  }
+
+  /**** GALLERY SECTION ****/
+
+  .latest-work, .personal-favorites {
+    position: relative;
+    display: block;
+    height: 600px;
+    margin: 20px auto;
+    max-width: 95%;
+    overflow: hidden;
+    transform: translateX(3%);
+    padding: 20px 0;
+  }
+  
+  .gallery-item {
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+  
+  .item1 {
+    top: 125px;
+    left: 5%;
+    width: 190px;
+  }
+
+  .item2 {
+    top: 50px;
+    left: 25%;
+    width: 200px;
+  }
+
+  .item3 {
+    top: 320px;
+    left: 40%;
+    width: 180px;
+  }
+
+  .item4 {
+    top: 100px;
+    left: 57%;
+    width: 240px;
+  }
+
+  .item5 {
+    top: 250px;
+    left: 77%;
+    width: 180px;
+  }
+
+  .item6 {
+    left: 5%;
+    top: 15px;
+    width: 250px;
+  }
+
+  .item7 {
+    top: 300px;
+    left: 25%;
+    width: 180px;
+  }
+
+  .item8 {
+    top: 10px;
+    left: 40%;
+    width: 190px;
+  }
+
+  .item9 {
+    top: 200px;
+    left: 57%;
+    width: 225px;
+  }
+
+  .item10 {
+    top: 100px;
+    left: 77%;
+    width: 205px;
   }
 
   /**** FOOTER SECTION ****/
