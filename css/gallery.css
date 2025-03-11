@@ -518,43 +518,47 @@ textarea {
   /**** GALLERY SECTION ****/
 
   .latest-work, .personal-favorites {
-    position: relative;
     display: block;
     height: 600px;
     margin: 20px auto;
     max-width: 95%;
     overflow: hidden;
-    transform: translateX(3%);
     padding: 20px 0;
+    position: relative;
+    transform: translateX(3%);
   }
   
   .gallery-item {
-    position: absolute;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: absolute;
+  }
+
+  h3 {
+    margin-bottom: 35px;
   }
   
   .item1 {
-    top: 125px;
     left: 5%;
+    top: 125px;
     width: 190px;
   }
 
   .item2 {
-    top: 50px;
     left: 25%;
+    top: 50px;
     width: 200px;
   }
 
   .item3 {
-    top: 320px;
     left: 40%;
+    top: 320px;
     width: 180px;
   }
 
   .item4 {
-    top: 100px;
     left: 57%;
+    top: 100px;
     width: 240px;
   }
 
@@ -565,33 +569,65 @@ textarea {
   }
 
   .item6 {
-    left: 5%;
     top: 15px;
+    left: 5%;
     width: 250px;
   }
 
   .item7 {
-    top: 300px;
     left: 25%;
+    top: 300px;
     width: 180px;
   }
 
   .item8 {
-    top: 10px;
     left: 40%;
+    top: 10px;
     width: 190px;
   }
 
   .item9 {
-    top: 200px;
     left: 57%;
+    top: 200px;
     width: 225px;
   }
 
   .item10 {
-    top: 100px;
     left: 77%;
+    top: 100px;
     width: 205px;
+  }
+
+  /**** LIGHTBOX STYLING ****/
+
+  .lightbox {
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8); 
+    display: none;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .lightbox-image {
+    border: 6px solid #a67c52;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    max-height: 80%;
+    max-width: 80%;
+  }
+  
+  .lightbox .close {
+    color: white;
+    cursor: pointer;
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    right: 30px;
+    top: 20px;
   }
 
   /**** FOOTER SECTION ****/
