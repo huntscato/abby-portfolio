@@ -135,6 +135,10 @@ textarea {
     padding: 0;
   }
 
+  .eapps-instagram-feed-posts-item-link {
+    border: 6px solid #bc672c;
+  }
+
   .elfsight-app * {
     box-sizing: border-box;
     max-width: 100% !important
