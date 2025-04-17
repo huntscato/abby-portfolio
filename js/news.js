@@ -29,6 +29,7 @@ async function init() {
     }
 
     console.log("Decoded CSV:", decodedCSV);
+    console.log('Full decoded text sample:', decodedCSV.split('\n') [8]);
 
     // Parse and display
     const posts = parseCSV(decodedCSV);
@@ -40,22 +41,13 @@ async function init() {
 
 // Parse CSV data into an array of objects
 function parseCSV(csv) {
-  const rows = csv.trim().split('\n');
-  const headers = rows[0].split(',');
-
-  console.log('Headers:', headers);
-
-  const data = rows.slice(1).map(row => {
-    const columns = row.split(',');
-    let post = {};
-    headers.forEach((header, index) => {
-      post[header.trim()] = columns[index]?.trim();
-    });
-    return post;
+  const parsed = Papa.parse(csv, {
+    header: true,
+    skipEmptyLines: true,
   });
 
-  console.log('Parsed Data:', data);
-  return data;
+  console.log("Parsed Data (PapaParse):", parsed.data);
+  return parsed.data;
 }
 
 // Display posts
